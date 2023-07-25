@@ -22,10 +22,12 @@ function IndexPage() {
             <div className="container mt-5 pt-3">
                 <div>
                     <Link to="/flow/login">로그인 하러가기</Link>
+                </div>
+                <div>
                     <Link to="/flow/signup">회원가입 하러가기</Link>
                 </div>
-
             </div>
+
         </>);
 }
 
